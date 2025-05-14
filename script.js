@@ -23,9 +23,3 @@ timeElement[1].style.fontStyle = "italic";
 let nameUser = document.querySelectorAll('.msg-info-name') //Поменяла имя
 nameUser[1].textContent = 'Diana';
 
-//добавить к сообщению бота подпись снизу курсивом "искусственный интеллект"
-messageBot.textContent = "искусственный интеллект";
-
-// Очистила чат кодом
-messageBot.innerHTML = ``;
-messageUser.innerHTML = ``;
